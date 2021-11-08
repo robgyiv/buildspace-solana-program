@@ -9,4 +9,4 @@ cluster = "localnet"
 wallet = "/Users/robbie/.config/solana/id.json"
 
 [scripts]
-test = "mocha -t 1000000 tests/"
+test = "node tests/buildspace-solana-program.js"
